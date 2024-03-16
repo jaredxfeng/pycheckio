@@ -24,3 +24,20 @@ def ugly_number(n: int) -> int:
         staging.remove(ugly_number)
         ugly_numbers.append(ugly_number)
     return ugly_numbers[-1]
+
+
+assert ugly_number(4) == 4
+assert ugly_number(6) == 6
+assert ugly_number(15) == 11
+assert ugly_number(1) == 1
+assert ugly_number(29) == 75
+assert ugly_number(84) == 960
+assert ugly_number(171) == 9216
+assert ugly_number(313) == 100000
+assert ugly_number(593) == 2332800
+assert ugly_number(899) == 26214400
+assert ugly_number(1173) == 150000000
+assert ugly_number(1398) == 512000000
+assert ugly_number(1407) == 536870912
+assert ugly_number(1500) == 859963392
+
