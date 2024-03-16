@@ -48,3 +48,5 @@ assert is_family([['Logan', 'William'], ['William', 'Jack'], ['Jack', 'Mike'], [
 assert is_family([['Logan', 'William'], ['Mike', 'Alexander'], ['William', 'Alexander']]) == False
 assert is_family([['Logan', 'Mike'], ['Alexander', 'Jack'], ['Jack', 'Alexander']]) == False
 assert is_family([['Logan', 'Mike'], ['Alexander', 'Jack'], ['Jack', 'Logan']]) == True
+assert is_family([['Logan', 'Mike'], ['Alexander', 'Jack'], ['Jack', 'Logan'], ['Alex', 'Bob']]) == False
+assert is_family([['Logan', 'Mike'], ['Alexander', 'Jack'], ['Mike', 'Alexander']]) == True
